@@ -1,0 +1,19 @@
+{
+  "name": "projectdb",
+  "version": "1.0.0",
+  "description": "nodejs for creating a database",
+  "main": "index.js",
+  "dependencies": {
+    "knex": "^0.16.3",
+    "mysql": "^2.16.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "create-migration": "knex migrate:make --env development",
+    "migrate:up": "knex migrate:latest --env development",
+    "migrate:down": "knex migrate:rollback --env development"
+  },
+  "author": "simbiat",
+  "license": "ISC"
+}

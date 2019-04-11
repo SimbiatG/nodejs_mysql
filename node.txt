@@ -1,0 +1,4 @@
+The model for the users table is a one - to - one relatinship. 
+This is because a user should have one first_name, last_name, email and password.
+
+The model for the requests table is a many - to - many relationship.
